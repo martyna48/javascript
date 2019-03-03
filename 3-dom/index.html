@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
     <title>JS DOM</title>
 </head>
 <body>
     <section id="sectionFirst">
 
-        <header>
+        <header onclick='colorChange();'>
         <p>paragraf</p>
-        <h1 id="main-header">Header</h1> 
+        <h1 id="main-header">Header</h1>
+        <!-- Komentarz 1 -->
+        <span>Span w headerze</span>
+        <!-- Komentarz 2 -->
         </header>
         
         <div id="parFirst">
+            <p>Tekst w tym akapicie ---</p>
         <p>Tekst w tym akapicie.</p>
         
         <a class="link" href="#">Akapit Link 1</a><br>
@@ -22,7 +27,9 @@
         <a class="link" href="https://akademia108.pl">Akapit Link 2</a>
         </div>
         
-        <div id="parSecond" >
+        <div class="parSecond" >
+        <p>Tekst w tym akapicie.</p>
+        <p class="par2">Tekst w tym akapice.</p>
         <p>Tekst w tym akapicie.</p>
         </div>
         
@@ -32,6 +39,6 @@
         <a class="link superlink" href="#">Link 4</a>
         
         </section>
-    <script src="js/2-znajdywanie-elementow.js"></script>
+    <script src="js/5-zdarzenia.js"></script>
 </body>
 </html>
